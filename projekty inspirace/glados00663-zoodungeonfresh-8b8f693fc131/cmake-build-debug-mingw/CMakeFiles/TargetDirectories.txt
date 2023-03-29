@@ -1,0 +1,3 @@
+C:/Users/XMG/CLionProjects/ZooProject/cmake-build-debug-mingw/CMakeFiles/ZooProject.dir
+C:/Users/XMG/CLionProjects/ZooProject/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/XMG/CLionProjects/ZooProject/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

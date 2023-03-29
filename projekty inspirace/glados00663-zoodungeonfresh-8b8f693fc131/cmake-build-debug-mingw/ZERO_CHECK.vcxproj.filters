@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\XMG\CLionProjects\ZooProject\cmake-build-debug-mingw\CMakeFiles\dcd1fedefbd13129295079e02b1f6816\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F84E19A-304A-3D22-A24F-CAB16F66AE8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

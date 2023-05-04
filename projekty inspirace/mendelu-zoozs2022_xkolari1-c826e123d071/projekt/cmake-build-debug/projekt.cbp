@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projekt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt">
+				<Option output="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 projekt"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt/fast">
+				<Option output="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 projekt/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/GameEngine.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/GameEngine.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Controls.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Controls.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/GameField.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/GameField.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/GameTitle.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/GameTitle.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Hints.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Hints.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/PotionInventory.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/PotionInventory.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Stats.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/Stats.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/WeaponInventory.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/GuiBlocks/WeaponInventory.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/InputHandler.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/InputHandler.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/InterfaceRenderer.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/InterfaceRenderer.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/RenderableBlock.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Interface/RenderableBlock.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Logic/CommandProcessor.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Logic/CommandProcessor.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Logic/GameState.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Logic/GameState.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTile.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTile.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTileCollection.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTileCollection.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTileCollectionFactory.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/GameTileCollectionFactory.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Player.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Player.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Potions/Potion.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Potions/Potion.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/CountDown.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/CountDown.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/FreeSpace.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/FreeSpace.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/PotionTile.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/PotionTile.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/Wall.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/Wall.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/WeaponTile.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Tiles/WeaponTile.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Weapons/Weapon.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/Resources/Weapons/Weapon.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/main.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

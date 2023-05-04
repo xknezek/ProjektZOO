@@ -1,0 +1,3 @@
+C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/CMakeFiles/projekt.dir
+C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/mendelu-zoozs2022_xkolari1-c826e123d071/projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

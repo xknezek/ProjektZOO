@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/drako/Desktop/glados00663-zoodungeonfresh-8b8f693fc131/MapManager.cpp" "CMakeFiles/ZooProject.dir/MapManager.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/MapManager.cpp.obj.d"
-  "C:/Users/drako/Desktop/glados00663-zoodungeonfresh-8b8f693fc131/Update.cpp" "CMakeFiles/ZooProject.dir/Update.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/Update.cpp.obj.d"
-  "C:/Users/drako/Desktop/glados00663-zoodungeonfresh-8b8f693fc131/main.cpp" "CMakeFiles/ZooProject.dir/main.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/main.cpp.obj.d"
+  "C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/glados00663-zoodungeonfresh-8b8f693fc131/MapManager.cpp" "CMakeFiles/ZooProject.dir/MapManager.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/MapManager.cpp.obj.d"
+  "C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/glados00663-zoodungeonfresh-8b8f693fc131/Update.cpp" "CMakeFiles/ZooProject.dir/Update.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/Update.cpp.obj.d"
+  "C:/Users/drako/source/repos/ProjektZOO/projekty inspirace/glados00663-zoodungeonfresh-8b8f693fc131/main.cpp" "CMakeFiles/ZooProject.dir/main.cpp.obj" "gcc" "CMakeFiles/ZooProject.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

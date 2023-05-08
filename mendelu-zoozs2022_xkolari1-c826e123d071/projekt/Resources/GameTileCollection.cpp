@@ -18,14 +18,17 @@ GameTileCollection::GameTileCollection() {
     }
 }*/
 
+// Metoda getTileAt() vrací herní pole na zadané pozici v kolekci herních polí
 GameTile *GameTileCollection::getTileAt(int x, int y) {
     return m_collection.at(x).at(y);
 }
 
+// Metoda setTileAt() nastaví herní pole na zadané pozici v kolekci herních polí
 void GameTileCollection::setTileAt(int x, int y, GameTile* gameTile) {
     m_collection.at(x).at(y) = gameTile;
 }
 
+// Konstruktor třídy GameTileCollection, nastavuje kolekci herních polí
 GameTileCollection::GameTileCollection(std::vector<std::vector<GameTile *>> collection) {
     m_collection = collection;
 }

@@ -1,6 +1,4 @@
-//
-// Created by root on 18.11.2022.
-//
+
 
 #define KEY_UP 72
 #define KEY_DOWN 80

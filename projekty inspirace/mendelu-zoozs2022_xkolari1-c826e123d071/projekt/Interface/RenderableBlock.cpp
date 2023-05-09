@@ -1,6 +1,4 @@
-//
-// Created by root on 23.11.2022.
-//
+
 
 #include "RenderableBlock.h"
 #include "InterfaceRenderer.h"

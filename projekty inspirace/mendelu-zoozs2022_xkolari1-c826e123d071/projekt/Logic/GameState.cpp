@@ -1,6 +1,4 @@
-//
-// Created by root on 18.11.2022.
-//
+
 
 #include "GameState.h"
 #include "../Resources/Tiles/Wall.h"
@@ -10,18 +8,18 @@
 
 bool GameState::needsRerender(int blockId) {
     new Player();
-    return m_needs_rerender[blockId];
+    return m_needs_rerender[blockId]; // Return whether the specified block needs to be rerendered
 }
 
 GameState::GameState() {
-    auto* factory = new GameTileCollectionFactory();
+    auto* factory = new GameTileCollectionFactory(); // Create a new game tile collection factory
     for (int i = 0; i <= 8; ++i) {
-        m_collections[i] = factory->createTileCollectionFromBlueprint(i);
+        m_collections[i] = factory->createTileCollectionFromBlueprint(i); // Create a game tile collection for each map using the factory
     }
 }
 
 GameTileCollection *GameState::getCollectionToRender() {
-    return m_collections[m_active_map_index];
+    return m_collections[m_active_map_index]; // Return the game tile collection for the active map
 }
 
 Player *GameState::getPlayer() {

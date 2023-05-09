@@ -1,6 +1,4 @@
-//
-// Created by root on 18.11.2022.
-//
+
 
 #include "InterfaceRenderer.h"
 #include "iostream"
@@ -16,6 +14,7 @@
 using namespace std;
 
 void InterfaceRenderer::printToXY(int x, int y, string s){
+    // Move the console cursor to the our position
     COORD coord;
     coord.X = x;
     coord.Y = y;
@@ -24,6 +23,7 @@ void InterfaceRenderer::printToXY(int x, int y, string s){
 }
 
 void InterfaceRenderer::printCharToXY(int x, int y, char s) {
+    // Move the console cursor of character to the desired position
     COORD coord;
     coord.X = x;
     coord.Y = y;
@@ -32,15 +32,16 @@ void InterfaceRenderer::printCharToXY(int x, int y, char s) {
 }
 
 void InterfaceRenderer::printGameState(GameState *gameState) {
+    // Render all the UI elements onto the console
     for(RenderableBlock* block : m_renderable_blocks){
         block->checkAndRender(gameState);
     }
-    //zaparkovat na zacatek kurzor
+    // Move the cursor to the top-left corner of the console
     printCharToXY(0, 0, ' ');
 }
 
 InterfaceRenderer::InterfaceRenderer() {
-    //V konstruktoru vytvorime jednotlive UI bloky
+    //In constructor we create specific blocks
     GameTitle* gameTitle = new GameTitle(10, 1, 99, 3, InterfaceRenderer::UI_HEADER);
     m_renderable_blocks.push_back(gameTitle);
 

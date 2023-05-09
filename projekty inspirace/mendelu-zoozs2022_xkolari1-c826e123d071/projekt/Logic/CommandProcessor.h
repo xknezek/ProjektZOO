@@ -1,6 +1,4 @@
-//
-// Created by root on 18.11.2022.
-//
+
 
 #ifndef PROJEKT_COMMANDPROCESSOR_H
 #define PROJEKT_COMMANDPROCESSOR_H

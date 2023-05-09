@@ -5,7 +5,8 @@
 #include "PotionTile.h"
 #include "FreeSpace.h"
 
-PotionTile::PotionTile(std::string name, int bonus) {
+//vlastnosti dlaždice
+PotionTile::PotionTile(std::string name, int bonus) {        
     m_name = name;
     m_bonus = bonus;
     m_is_passthrough = true;

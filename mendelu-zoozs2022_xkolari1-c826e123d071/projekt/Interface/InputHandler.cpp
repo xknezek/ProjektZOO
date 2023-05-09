@@ -15,6 +15,7 @@
 #include "InputHandler.h"
 
 
+//Metoda pro získávání vstupu od hráče a porovnávání s přednastavenými konstantami.
 int InputHandler::getCommandForInput(int ascii) {
     //GameEngine::debugMessage(std::to_string(ascii));
     switch (ascii) {
@@ -58,6 +59,4 @@ int InputHandler::getCommandForInput(int ascii) {
             return CommandProcessor::IGNORED;
             break;
     }
-
-
 }

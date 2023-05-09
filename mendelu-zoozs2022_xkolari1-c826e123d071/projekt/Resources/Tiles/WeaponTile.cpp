@@ -2,6 +2,8 @@
 // Created by root on 06.12.2022.
 //
 
+//WeaponTile obsahuje vlastnosti zbraně
+
 #include "WeaponTile.h"
 #include "FreeSpace.h"
 

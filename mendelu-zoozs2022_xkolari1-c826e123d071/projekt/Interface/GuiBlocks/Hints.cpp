@@ -5,10 +5,13 @@
 #include "Hints.h"
 #include "..\InterfaceRenderer.h"
 
+
+//Konstruktor pro třídu Hints.
 Hints::Hints(int x, int y, int width, int height, int id) : RenderableBlock(x, y, width, height, id) {
 
 }
 
+//Metoda pro výpis nápovědy pro hráče.
 void Hints::render(GameState *gameState) {
     if (!gameState->getHint().empty()) {
         clear();

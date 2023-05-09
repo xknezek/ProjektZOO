@@ -5,6 +5,7 @@
 #include "RenderableBlock.h"
 #include "InterfaceRenderer.h"
 
+//Konstruktor pro třídu RenderableBlock.
 RenderableBlock::RenderableBlock(int x, int y, int width, int height, int id) {
     m_start_x = x;
     m_start_y = y;
@@ -13,22 +14,27 @@ RenderableBlock::RenderableBlock(int x, int y, int width, int height, int id) {
     m_id = id;
 }
 
+//Metoda pro vypsání textu na přísušnou pozici.
 void RenderableBlock::print(int x, int y, std::string s) {
     InterfaceRenderer::printToXY(x+m_start_x, y+m_start_y, s);
 }
 
+//Metoda pro vypsání znaku na příslušnou pozici.
 void RenderableBlock::printChar(int x, int y, char c) {
     InterfaceRenderer::printCharToXY(x+m_start_x, y+m_start_y, c);
 }
 
+//Metoda pro vyplnění bloku prázdým místem.
 void RenderableBlock::clear() {
     fillWithChar(' ');
 }
 
+//Metoda pro vyplnění bloku znakem X.
 void RenderableBlock::fill() {
     fillWithChar('X');
 }
 
+//Metoda pro procházení každého sloupce a řádku bloku a vyplňování předaným znakem.
 void RenderableBlock::fillWithChar(char c) {
     for (int i = 0; i < m_height; ++i) {
         for (int j = 0; j < m_width; ++j) {
@@ -37,10 +43,12 @@ void RenderableBlock::fillWithChar(char c) {
     }
 }
 
+//Metoda pro zjištění jestli je blok potřeba znovu vypsat a následné vypsání.
 void RenderableBlock::checkAndRender(GameState *gameState) {
     if(gameState->needsRerender(m_id)) render(gameState);
 }
 
+//Metoda pro výpis ohraničení jednotlivých bloků.
 void RenderableBlock::printBorder() {
     //znaky
     //─ 196

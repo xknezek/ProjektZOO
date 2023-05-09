@@ -5,10 +5,12 @@
 #include "GameField.h"
 #include "../../GameEngine.h"
 
+//Konstruktor pro třídu GameField.
 GameField::GameField(int x, int y, int width, int height, int id) : RenderableBlock(x, y, width, height, id) {
 
 }
 
+//Metoda pro vykreslování hrací plochy a hráče na příslušná místa a aktualizování výpisu.
 void GameField::render(GameState *gameState) {
     GameTileCollection* collection = gameState->getCollectionToRender();
     if(!gameState->getPixelUpdates().empty()){

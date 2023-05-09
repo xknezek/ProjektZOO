@@ -2,6 +2,8 @@
 // Created by root on 24.11.2022.
 //
 
+//Třída pro vytvoření zdi jako znaku
+
 #include "Wall.h"
 
 Wall::Wall() : GameTile(){

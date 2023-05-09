@@ -25,7 +25,7 @@ GameState *CommandProcessor::processCommand(int command, GameState *gameState) {
             gameState->addHint("Doprava");
             break;
         case CommandProcessor::ENTER:
-            //todo vypij potion
+            //todo drink potion
             GameEngine::debugMessage("enter");
             //if(gameState->getChoosePotionMode()) gameState->getPlayer()->getAktivniPotion()->vypij()
             gameState->setChoosePotionMode(false);

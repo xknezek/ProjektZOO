@@ -6,7 +6,7 @@ int GameEngine::DEBUG_COUNT = 0;
 
 int main() {
 
-    //Inicializace hlavni tridy, ktera se stara o vsechno ostatni
+    //main class inicialization
     GameEngine* g = new GameEngine();
     g->run();
 

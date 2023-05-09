@@ -15,39 +15,39 @@ void GameEngine::run() {
     int command = 0;
     int input = 0;
 
-    //Probehne inicializace a prvotni vykresleni GUI
+    //inicialization and first GUI
     handleAction(CommandProcessor::INIT);
 
-    //Smycka, ktera
+
     while (run) {
-        //Resetuje debug messages
+        //Resets debug messages
         GameEngine::resetDebug();
-        //Zaeviduje input
+        //evidates input
         input = getch();
-        //Posle ho na vyhodnoceni
+        //revidates the input
         command = InputHandler::getCommandForInput(input);
-        //Pokud je to neco, co nas zajima
+        // if the command is not ignored
         if (command != CommandProcessor::IGNORED) {
-            //a pokud se zrovna nepoukousime vypnout program
+            // if the command is to exit the program
             if (command == CommandProcessor::EXIT) {
                 run = false;
             } else {
-                //posle do dalsi metody
+                //calls handleAction with the command to do
                 handleAction(command);
             }
         }
     }
-    //Instrukce pro vypnuti
+    //it exists the programme
     exit(0);
 }
 
 
-//Metoda pro zpracování uživatelského vstupu
+//handles User input
 void GameEngine::handleAction(int command) {
     //update game state tim ze ho protahnu pres command processor a ulozim zpet novy state
     m_game_state = m_command_processor->processCommand(command, m_game_state);
 
-    //vykreslim znovu kompletne cely game state
+    //rerender the state
     m_renderer->printGameState(m_game_state);
 }
 

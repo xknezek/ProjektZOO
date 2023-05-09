@@ -5,8 +5,10 @@
 #include "WeaponInventory.h"
 #include "../InterfaceRenderer.h"
 
+//Konstuktor pro třídu WeaponInventory.
 WeaponInventory::WeaponInventory(int x, int y, int width, int height, int id) : RenderableBlock(x, y, width, height, id) {}
 
+//Metoda pro výpis ohraničení a obsahu hráčova inventáře zbraní.
 void WeaponInventory::render(GameState *gameState) {
     printBorder();
     printToCenter(0, "Weapons");

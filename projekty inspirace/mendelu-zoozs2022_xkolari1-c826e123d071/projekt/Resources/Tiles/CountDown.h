@@ -1,6 +1,4 @@
-//
-// Created by root on 29.11.2022.
-//
+
 
 #ifndef PROJEKT_COUNTDOWN_H
 #define PROJEKT_COUNTDOWN_H

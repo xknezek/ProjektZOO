@@ -1,6 +1,4 @@
-//
-// Created by root on 18.11.2022.
-//
+
 
 #ifndef PROJEKT_GAMEENGINE_H
 #define PROJEKT_GAMEENGINE_H

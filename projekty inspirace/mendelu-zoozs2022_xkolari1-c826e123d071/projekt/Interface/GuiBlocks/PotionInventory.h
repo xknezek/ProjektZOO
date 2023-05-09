@@ -1,6 +1,4 @@
-//
-// Created by root on 06.12.2022.
-//
+
 
 #ifndef PROJEKT_POTIONINVENTORY_H
 #define PROJEKT_POTIONINVENTORY_H

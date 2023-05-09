@@ -1,6 +1,4 @@
-//
-// Created by root on 28.11.2022.
-//
+
 
 #ifndef PROJEKT_PLAYER_H
 #define PROJEKT_PLAYER_H

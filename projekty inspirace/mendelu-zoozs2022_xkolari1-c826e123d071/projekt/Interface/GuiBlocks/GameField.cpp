@@ -1,6 +1,4 @@
-//
-// Created by root on 24.11.2022.
-//
+
 
 #include "GameField.h"
 #include "../../GameEngine.h"

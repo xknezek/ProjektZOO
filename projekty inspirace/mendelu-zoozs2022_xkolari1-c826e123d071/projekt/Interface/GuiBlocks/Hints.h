@@ -1,6 +1,3 @@
-//
-// Created by root on 24.11.2022.
-//
 
 #ifndef PROJEKT_HINTS_H
 #define PROJEKT_HINTS_H

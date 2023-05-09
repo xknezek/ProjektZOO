@@ -1,6 +1,4 @@
-//
-// Created by root on 23.11.2022.
-//
+
 
 #ifndef PROJEKT_GAMETITLE_H
 #define PROJEKT_GAMETITLE_H

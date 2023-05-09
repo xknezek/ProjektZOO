@@ -1,6 +1,4 @@
-//
-// Created by root on 06.12.2022.
-//
+
 
 #include "WeaponTile.h"
 #include "FreeSpace.h"

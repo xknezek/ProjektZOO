@@ -1,6 +1,4 @@
-//
-// Created by root on 24.11.2022.
-//
+
 
 #ifndef PROJEKT_WEAPONINVENTORY_H
 #define PROJEKT_WEAPONINVENTORY_H

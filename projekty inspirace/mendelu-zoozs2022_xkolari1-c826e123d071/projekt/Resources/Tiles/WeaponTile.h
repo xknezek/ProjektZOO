@@ -1,6 +1,4 @@
-//
-// Created by root on 06.12.2022.
-//
+
 
 #ifndef PROJEKT_WEAPONTILE_H
 #define PROJEKT_WEAPONTILE_H

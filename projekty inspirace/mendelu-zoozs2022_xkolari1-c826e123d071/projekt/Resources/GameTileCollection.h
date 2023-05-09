@@ -1,6 +1,4 @@
-//
-// Created by root on 24.11.2022.
-//
+
 
 #ifndef PROJEKT_GAMETILECOLLECTION_H
 #define PROJEKT_GAMETILECOLLECTION_H

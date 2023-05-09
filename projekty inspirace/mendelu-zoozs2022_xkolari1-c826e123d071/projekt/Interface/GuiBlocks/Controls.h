@@ -1,6 +1,3 @@
-//
-// Created by root on 24.11.2022.
-//
 
 #ifndef PROJEKT_CONTROLS_H
 #define PROJEKT_CONTROLS_H

@@ -1,6 +1,4 @@
-//
-// Created by root on 29.11.2022.
-//
+
 
 #include "CountDown.h"
 #include "FreeSpace.h"

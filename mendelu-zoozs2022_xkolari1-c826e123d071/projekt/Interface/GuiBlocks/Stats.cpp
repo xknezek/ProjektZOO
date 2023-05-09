@@ -5,10 +5,12 @@
 #include "Stats.h"
 #include "../InterfaceRenderer.h"
 
+//Konstruktor pro třídu Stats.
 Stats::Stats(int x, int y, int width, int height, int id) : RenderableBlock(x, y, width, height, id) {
 
 }
 
+//Metoda pro vypsání ohraničení statistik hráče a samotných statistik.
 void Stats::render(GameState *gameState) {
     printBorder();
     printToCenter( 0, "Staty");

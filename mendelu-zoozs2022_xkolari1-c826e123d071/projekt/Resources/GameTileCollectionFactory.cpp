@@ -10,6 +10,8 @@
 #include "Tiles/PotionTile.h"
 #include "Tiles/WeaponTile.h"
 
+//GameTileCollectionFactory obsahuje 9 natvrdo vytvořených map
+
 void GameTileCollectionFactory::loadBlueprints() {
     //0  1  2
     //3  4  5

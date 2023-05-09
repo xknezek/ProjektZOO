@@ -4,6 +4,8 @@
 
 #include "Player.h"
 
+//Třída Player obsahuje souřadnice hráče a metody, které vrací hodnoty různých parametrů
+
 Player::Player(int x, int y) {
     m_location_x = x;
     m_location_y = y;
